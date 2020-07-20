@@ -19,6 +19,7 @@
     <modules>
         <module>gmall-admin</module>
         <module>gmall-common</module>
+        <module>gmall-pms</module>
     </modules>
 
     <properties>
@@ -34,7 +35,7 @@
         <lang3.version>3.9</lang3.version>
     </properties>
 
-    <dependencyManagement>
+<dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -136,6 +137,6 @@
             </dependency>
 
         </dependencies>
-    </dependencyManagement>
+</dependencyManagement>
 
 </project>
